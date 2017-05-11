@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [AWChromeTest]">
+  <test name="Command line test(failed)" parallel="methods">
+    <classes>
+      <class name="AWChromeTest">
+        <methods>
+          <include name="testAdvertiseChooserSize"/>
+          <include name="testNavigateToJobs"/>
+          <include name="tearDown"/>
+          <include name="testAdvertisePriceOfThreeIssue"/>
+          <include name="testAdvertisePriceOfTwoIssue"/>
+          <include name="testAdvertisePriceOfOneIssue"/>
+          <include name="setUp"/>
+          <include name="navigateToHome"/>
+        </methods>
+      </class> <!-- AWChromeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [AWChromeTest] -->

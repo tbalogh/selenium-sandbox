@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Multi threaded tests" configfailurepolicy="continue">
+    <test name="Test with 1 thread">
+        <classes>
+            <class name="MultiThreadTest" />
+        </classes>
+    </test>
+    <test name="Test with 2 thread" parallel="tests" thread-count="2">
+        <classes>
+            <class name="MultiThreadTest" />
+        </classes>
+    </test>
+    <test name="Test with 2 thread" parallel="tests" thread-count="4">
+        <classes>
+            <class name="MultiThreadTest" />
+        </classes>
+    </test>
+
+
+</suite>

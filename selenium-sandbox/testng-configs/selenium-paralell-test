@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Group tests" configfailurepolicy="continue">
+
+    <test name="Chrome test">
+        <parameter name="browser" value="0"/>
+        <classes>
+            <class name="selenium.SeleniumParalelTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox test">
+        <parameter name="browser" value="1"/>
+        <classes>
+            <class name="selenium.SeleniumParalelTest"/>
+        </classes>
+    </test>
+
+</suite>
